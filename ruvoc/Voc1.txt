@@ -1,0 +1,3 @@
+mous мышь
+leaf лист
+color цвет
