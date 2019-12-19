@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ruvoc" />
+        <module name="ru.voc" />
       </profile>
     </annotationProcessing>
   </component>

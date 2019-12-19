@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -103,6 +103,11 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -118,7 +123,7 @@
   <component name="RunManager">
     <configuration name="StartClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StartClass" />
-      <module name="ruvoc" />
+      <module name="ru.voc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
