@@ -2,7 +2,6 @@ package ru.exam;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.criterion.Restrictions;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -27,7 +26,7 @@ public class UserDAOImpl implements UserDao {
 
     @Override
     public List<Users> getUsersList(String name) {
-        Session session = HibernateSessionFactoryUtil.getSessionFactory().getCurrentSession();
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();//getCurrentSession();
         Transaction tx1 = session.beginTransaction();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Users> criteria = builder.createQuery(Users.class);
@@ -35,6 +34,7 @@ public class UserDAOImpl implements UserDao {
         criteria.select(employeeRoot);
         criteria.where(builder.equal(employeeRoot.get("user"), "John"));
         List<Users> list=session.createQuery(criteria).getResultList();
+        session.close();
         return list;
     }
 }
