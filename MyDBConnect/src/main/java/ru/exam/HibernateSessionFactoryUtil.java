@@ -5,11 +5,12 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
 public class HibernateSessionFactoryUtil {
-    private static SessionFactory sessionFactory;
+    private  SessionFactory sessionFactory;
 
-    private HibernateSessionFactoryUtil() {}
+     HibernateSessionFactoryUtil() {
+     }
 
-    public static SessionFactory getSessionFactory() {
+    public  SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             try {
                 Configuration configuration = new Configuration().configure();

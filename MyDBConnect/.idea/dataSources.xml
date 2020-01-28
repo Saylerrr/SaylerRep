@@ -10,5 +10,11 @@
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="SQLite - my_schema_stud.db" uuid="15100a23-c7c1-4b5a-978a-830b8605bc60">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\RepAnton\SaylerRep\MyDBConnect\SQLite\my_schema_stud.db</jdbc-url>
+    </data-source>
   </component>
 </project>
