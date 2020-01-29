@@ -6,4 +6,5 @@ public interface UserDao {
     Users getUser(int id);
     boolean setUser(Users user);
     List<Users> getUsersList(String name);
+    List<Users> getUsersNativList(String name);
 }

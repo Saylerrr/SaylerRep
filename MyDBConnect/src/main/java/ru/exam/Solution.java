@@ -13,5 +13,6 @@ public class Solution {
         //daoImpl.setUser(new Users("John"));
         System.out.println(daoImpl.getUser(2));
         System.out.println(daoImpl.getUsersList("John"));
+        System.out.println(daoImpl.getUsersNativList("IUser"));
     }
 }

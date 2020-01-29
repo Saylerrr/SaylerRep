@@ -44,4 +44,12 @@ public class UserDAOImpl implements UserDao {
         session.close();
         return list;
     }
+
+    @Override
+    public List<Users> getUsersNativList(String name) {
+        Session session = sesFactory.getSessionFactory().openSession();
+        List<Users> list = session.createSQLQuery("SELECT * FROM USERS where user = '"+name+"'").addEntity(Users.class).list();
+        session.close();
+        return list;
+    }
 }
