@@ -117,6 +117,7 @@
       <workItem from="1580054619370" duration="629000" />
       <workItem from="1580231251463" duration="3006000" />
       <workItem from="1580318633602" duration="1997000" />
+      <workItem from="1580499268639" duration="147000" />
     </task>
     <servers />
   </component>
@@ -132,10 +133,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580318899546" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580233789368">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580499394726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580233789368" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580499394726" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580320637381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -180,9 +181,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="676" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579968622229" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580318799399">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580499272840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580318799399" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580499272840" />
+    <state x="342" y="216" key="new project wizard" timestamp="1580499418743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="216" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580499418743" />
   </component>
 </project>
