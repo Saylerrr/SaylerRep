@@ -10,16 +10,12 @@
 <h2>Submitted Student Information</h2>
 <table>
     <tr>
-        <td>Name</td>
-        <td>${name}</td>
+        <td>Word first:</td>
+        <td>${word_first}</td>
     </tr>
     <tr>
-        <td>Age</td>
-        <td>${age}</td>
-    </tr>
-    <tr>
-        <td>ID</td>
-        <td>${id}</td>
+        <td>Word second:</td>
+        <td>${word_second}</td>
     </tr>
 </table>
 </body>
