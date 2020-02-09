@@ -15,7 +15,7 @@ public class HibernateSessionFactoryUtil {
             try {
                 Configuration configuration = new Configuration().configure();
                 configuration.addAnnotatedClass(VocFirst.class);
-                configuration.addAnnotatedClass(VocSecond.class);
+                //configuration.addAnnotatedClass(VocSecond.class);
                 StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties());
                 sessionFactory = configuration.buildSessionFactory(builder.build());
 

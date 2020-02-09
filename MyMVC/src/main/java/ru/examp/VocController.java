@@ -29,10 +29,10 @@ public class VocController {
     public String setVoc(VocFirst voc, ModelMap model){ //Если вместо Vocabulary поставить например VocFirst и ввести в форму "1", то работает
         model.addAttribute("word_first", voc.getWord_first());
         model.addAttribute("word_second", voc.getWord_second());
-        //ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        //VocDaoImpl daoImpl = context.getBean("dao", VocDaoImpl.class);
-        //VocFirst list = daoImpl.getId(1);
-        //System.out.println(list.getWord_first());
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        VocDaoImpl daoImpl = context.getBean("dao", VocDaoImpl.class);
+        VocFirst list = daoImpl.getId(1);
+        System.out.println(list.getWord_first());
         return "result";
     }
 

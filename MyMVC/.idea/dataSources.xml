@@ -5,7 +5,7 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/sqlite/vocabulary.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:D:\RepAnton\SaylerRep\MyMVC\sqlite\vocabulary.db</jdbc-url>
     </data-source>
   </component>
 </project>

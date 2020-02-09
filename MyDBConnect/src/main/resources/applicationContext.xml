@@ -7,9 +7,9 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
     <bean id="sesFact"
-          class="ru.exam.HibernateSessionFactoryUtil"/>
+          class="ru.exam.dataConnection.HibernateSessionFactoryUtilForVoc"/>
     <bean id="dao"
-          class="ru.exam.UserDAOImpl">
+          class="ru.exam.dataConnection.VocDaoImpl">
         <constructor-arg ref="sesFact"/>
     </bean>
 

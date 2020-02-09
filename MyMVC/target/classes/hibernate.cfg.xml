@@ -5,7 +5,7 @@
 
 <hibernate-configuration>
     <session-factory>
-        <property name="hibernate.connection.url">jdbc:sqlite:D:/RepAnton/SaylerRep/MyMVC/sqlite/vocabulary.db</property>
+        <property name="hibernate.connection.url">jdbc:sqlite:D:\RepAnton\SaylerRep\MyMVC\sqlite\vocabulary.db</property>
         <property name="hibernate.connection.pool_size">1</property>
         <property name="show_sql">true</property>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>

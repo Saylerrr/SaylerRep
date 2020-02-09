@@ -14,7 +14,8 @@
         <property name="hibernate.connection.characterEncoding">utf8</property>
         <property name="hibernate.connection.useUnicode">true</property>
 
-        <mapping class="ru.exam.Users" />
+        <mapping class="ru.exam.dictionaries.VocFirst" />
+        <mapping class="ru.exam.dictionaries.VocSecond" />
 
     </session-factory>
 </hibernate-configuration>
