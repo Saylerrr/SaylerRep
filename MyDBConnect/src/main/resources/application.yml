@@ -1,0 +1,28 @@
+
+server:
+  port: 8080
+
+
+spring:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
+    properties:
+      hibernate:
+#        format_sql: true  # format sql show
+        jdbc.lob.non_contextual_creation: true #https://github.com/pgjdbc/pgjdbc/issues/1102
+  datasource:
+    url: jdbc:sqlite:D:\my_schema_stud.db
+    username: akf
+    password: akfpass
+    driver-class-name: org.sqlite.JDBC
+    tomcat:
+      maxIdle: 10
+      max-active: 5
+      max-wait: 10000
+      validationQuery: select 1
+      removeAbandoned: true
+      removeAbandonedTimeout: 120
+

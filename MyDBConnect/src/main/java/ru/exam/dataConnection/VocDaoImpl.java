@@ -12,9 +12,9 @@ public class VocDaoImpl implements VocDao {
         sesFactory = sessionFactory;
     }
 
-    public VocFirst getUser(int id) {
-        return sesFactory.getSessionFactory().openSession().get(VocFirst.class, id);
-    }
+//    public VocFirst getUser(int id) {
+//        return sesFactory.getSessionFactory().openSession().get(VocFirst.class, id);
+//    }
 
     public boolean setVoc (Vocabulary voc){
         Session session = sesFactory.getSessionFactory().openSession();
