@@ -5,6 +5,11 @@ import org.hibernate.Transaction;
 import ru.exam.dictionaries.VocFirst;
 import ru.exam.dictionaries.Vocabulary;
 
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
+import java.util.List;
+
 public class VocDaoImpl implements VocDao {
     private HibernateSessionFactoryUtilForVoc sesFactory;
 
@@ -22,6 +27,40 @@ public class VocDaoImpl implements VocDao {
         session.save(voc);
         tx1.commit();
         session.close();
+        System.out.println(voc);
+        return true;
+    }
+
+    public <T> List<T>  getWordByKey (String key, Class<T> clazz) {
+        Session session = sesFactory.getSessionFactory().openSession();
+        Transaction tx1 = session.beginTransaction();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> criteria = builder.createQuery(clazz);
+        Root<T> employeeRoot=criteria.from(clazz);
+        criteria.select(employeeRoot);
+        criteria.where(builder.equal(employeeRoot.get("word_first"), key));
+        List<T> list = session.createQuery(criteria).getResultList();
+        session.close();
+        System.out.println(list);
+        return list;
+    }
+
+    public <T> List<T> getAllVoc(Class<T> clazz, String table){
+        Session session = sesFactory.getSessionFactory().openSession();
+        List<T> list = session.createSQLQuery("SELECT * FROM " + table).addEntity(clazz).list();
+        session.close();
+        System.out.println(list);
+        return list;
+
+    }
+
+    public boolean delVoc (Vocabulary voc) {
+        Session session = sesFactory.getSessionFactory().openSession();
+        Transaction tx1 = session.beginTransaction();
+        session.delete(voc);
+        tx1.commit();
+        session.close();
+        System.out.println(voc);
         return true;
     }
 

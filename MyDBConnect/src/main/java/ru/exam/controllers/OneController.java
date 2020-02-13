@@ -13,7 +13,7 @@ import ru.exam.dictionaries.VocSecond;
 public class OneController {
     @RequestMapping(value = "/viewVoc", method = RequestMethod.GET)
     public ModelAndView viewVoc() {
-        ModelAndView model = new ModelAndView("viewVoc");
+        //ModelAndView model = new ModelAndView("viewVoc");
         return new ModelAndView("viewVoc", "command", new ChoiceVoc());
     }
 

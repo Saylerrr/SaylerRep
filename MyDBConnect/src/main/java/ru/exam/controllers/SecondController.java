@@ -2,12 +2,13 @@ package ru.exam.controllers;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 import ru.exam.dataConnection.VocDaoImpl;
 import ru.exam.dictionaries.VocSecond;
-import ru.exam.dictionaries.Vocabulary;
+
+import java.util.List;
 
 @Controller
 @RequestMapping(value = "/editSecondVoc")
@@ -16,21 +17,34 @@ public class SecondController implements BaseController {
     VocDaoImpl daoImpl = context.getBean("dao", VocDaoImpl.class);
 
     @RequestMapping(method = RequestMethod.POST)
-    public String add(VocSecond voc, ModelMap model) {
+    public String add(String wordOne, String wordTwo) {
+        VocSecond voc = new VocSecond();
+        voc.setWord_first(wordOne);
+        voc.setWord_second(wordTwo);
         daoImpl.setVoc(voc);
         return "viewVoc";
-
     }
 
-    public void edit() {
-
+    @RequestMapping(value = "/editSecondVoc/get", method = RequestMethod.POST)
+    public ModelAndView getBykey(String key){
+        return new ModelAndView("result", "command", daoImpl.<VocSecond>getWordByKey(key, VocSecond.class));
     }
 
-    public void delete() {
-
+    @RequestMapping(value = "/editSecondVoc/getall", method = RequestMethod.POST)
+    public ModelAndView getAllVoc(){
+        return new ModelAndView("result", "command", daoImpl.getAllVoc(VocSecond.class, "voc_second"));
     }
 
-    public VocSecond view() {
-        return null;
+    @RequestMapping(value = "/editSecondVoc/del", method = RequestMethod.POST)
+    public String delete(String word) {
+        VocSecond voc = new VocSecond();
+        voc.setWord_first(word);
+        // Находит в БД запись по первому слову
+        List<VocSecond> list = daoImpl.<VocSecond>getWordByKey(word, VocSecond.class);
+        // добавляет в voc id и второе слово из БД
+        voc.setId(list.get(0).getId());
+        voc.setWord_second(list.get(0).getWord_second());
+        daoImpl.delVoc(voc);
+        return "result";
     }
 }
