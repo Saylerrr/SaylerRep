@@ -2,8 +2,9 @@ package ru.exam.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 import ru.exam.dictionaries.ChoiceVoc;
 import ru.exam.dictionaries.VocFirst;
@@ -11,13 +12,18 @@ import ru.exam.dictionaries.VocSecond;
 
 @Controller
 public class OneController {
-    @RequestMapping(value = "/viewVoc", method = RequestMethod.GET)
+    @GetMapping("/viewVoc")
     public ModelAndView viewVoc() {
         //ModelAndView model = new ModelAndView("viewVoc");
         return new ModelAndView("viewVoc", "command", new ChoiceVoc());
     }
 
-    @RequestMapping(value = "/editVoc", method = RequestMethod.POST)
+    @GetMapping("/hello")
+    public String getHello(){
+        return "hello";
+    }
+
+    @PostMapping("/editVoc")
     public ModelAndView editVoc(ChoiceVoc voc, ModelMap model) {
         model.addAttribute("numVoc", voc.getNumVoc());
         if (voc.getNumVoc()==1){

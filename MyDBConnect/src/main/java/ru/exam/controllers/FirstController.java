@@ -2,8 +2,8 @@ package ru.exam.controllers;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import ru.exam.dataConnection.VocDaoImpl;
 import ru.exam.dictionaries.VocFirst;
@@ -16,7 +16,7 @@ public class FirstController implements BaseController {
     ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
     VocDaoImpl daoImpl = context.getBean("dao", VocDaoImpl.class);
 
-    @RequestMapping(method = RequestMethod.POST)
+    @PostMapping
     public String add(String wordOne, String wordTwo) {
         VocFirst voc = new VocFirst();
         voc.setWord_first(wordOne);
@@ -25,17 +25,17 @@ public class FirstController implements BaseController {
         return "viewVoc";
     }
 
-    @RequestMapping(value = "/editFirstVoc/get", method = RequestMethod.POST)
+    @PostMapping("/editFirstVoc/get")
     public ModelAndView getBykey(String key){
         return new ModelAndView("result", "command", daoImpl.<VocFirst>getWordByKey(key, VocFirst.class));
     }
 
-    @RequestMapping(value = "/editFirstVoc/getall", method = RequestMethod.POST)
+    @PostMapping("/editFirstVoc/getall")
     public ModelAndView getAllVoc(){
         return new ModelAndView("result", "command", daoImpl.getAllVoc(VocFirst.class, "voc_first"));
     }
 
-    @RequestMapping(value = "/editFirstVoc/del", method = RequestMethod.POST)
+    @PostMapping("/editFirstVoc/del")
     public String delete(String word) {
         VocFirst voc = new VocFirst();
         voc.setWord_first(word);
