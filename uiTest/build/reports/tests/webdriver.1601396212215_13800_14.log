@@ -1,0 +1,283 @@
+[1601396212.529][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 43638
+[1601396212.529][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601396213.044][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\sayle\\IdeaProjects\\uiTest\\build\\downloads\\1601396209020_13800_14",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\sayle\\IdeaProjects\\uiTest\\build\\downloads\\1601396209020_13800_14",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601396213.048][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\sayle\\IdeaProjects\\uiTest\\build\\downloads\\1601396209020_13800_14"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601396213.052][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601396213.056][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\sayle\AppData\Local\Temp\scoped_dir1764_590182761" data:,
+[1601396213.519][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601396215.549][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601396217.581][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\sayle\\AppData\\Local\\Temp\\scoped_dir1764_590182761"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49982"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9789c06240e0c84119acc0212f93e091"
+}
+[1601396217.623][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1601396217.623][INFO]: Waiting for pending navigations...
+[1601396217.625][INFO]: Done waiting for pending navigations. Status: ok
+[1601396217.733][INFO]: Waiting for pending navigations...
+[1601396217.734][INFO]: Done waiting for pending navigations. Status: ok
+[1601396217.734][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1601396217.748][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1601396217.748][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE SetTimeouts
+[1601396217.764][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND Navigate {
+   "url": "https://www.wiley.com/en-us"
+}
+[1601396217.764][INFO]: Waiting for pending navigations...
+[1601396217.765][INFO]: Done waiting for pending navigations. Status: ok
+[1601396218.323][INFO]: Waiting for pending navigations...
+[1601396219.264][INFO]: Done waiting for pending navigations. Status: ok
+[1601396219.264][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE Navigate
+[1601396219.296][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'WHO WE SERVE')]"
+}
+[1601396219.296][INFO]: Waiting for pending navigations...
+[1601396219.297][INFO]: Done waiting for pending navigations. Status: ok
+[1601396219.304][INFO]: Waiting for pending navigations...
+[1601396219.305][INFO]: Done waiting for pending navigations. Status: ok
+[1601396219.305][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3a5e5278-b0ca-4b7b-b922-36e437cba365"
+}
+[1601396219.328][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "3a5e5278-b0ca-4b7b-b922-36e437cba365"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601396219.328][INFO]: Waiting for pending navigations...
+[1601396219.329][INFO]: Done waiting for pending navigations. Status: ok
+[1601396219.336][INFO]: Waiting for pending navigations...
+[1601396219.337][INFO]: Done waiting for pending navigations. Status: ok
+[1601396219.337][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE ExecuteScript true
+[1601396219.342][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND ClickElement {
+   "id": "3a5e5278-b0ca-4b7b-b922-36e437cba365"
+}
+[1601396219.342][INFO]: Waiting for pending navigations...
+[1601396219.343][INFO]: Done waiting for pending navigations. Status: ok
+[1601396220.385][INFO]: Waiting for pending navigations...
+[1601396220.385][INFO]: Done waiting for pending navigations. Status: ok
+[1601396220.385][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE ClickElement ERROR element click intercepted: Element <a href="#" class="collapsed" title="with submenu">...</a> is not clickable at point (291, 30). Other element would receive the click: <div id="selectCountryModalWnd" role="dialog" class="modal fade modalWindow in" data-cookie-country-cookie-name="wileyEncodedLocale" data-cookie-country-cookie-path="/" data-cookie-country-cookie-max-age="315532800" data-current-locale="en-us" data-detected-locale="en-ru" aria-hidden="false" style="display: block;">...</div>
+  (Session info: chrome=85.0.4183.121)
+[1601396220.622][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'WHO WE SERVE')]"
+}
+[1601396220.622][INFO]: Waiting for pending navigations...
+[1601396220.624][INFO]: Done waiting for pending navigations. Status: ok
+[1601396220.640][INFO]: Waiting for pending navigations...
+[1601396220.643][INFO]: Done waiting for pending navigations. Status: ok
+[1601396220.643][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3a5e5278-b0ca-4b7b-b922-36e437cba365"
+}
+[1601396220.669][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "3a5e5278-b0ca-4b7b-b922-36e437cba365"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601396220.669][INFO]: Waiting for pending navigations...
+[1601396220.670][INFO]: Done waiting for pending navigations. Status: ok
+[1601396220.676][INFO]: Waiting for pending navigations...
+[1601396220.677][INFO]: Done waiting for pending navigations. Status: ok
+[1601396220.677][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE ExecuteScript true
+[1601396220.684][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND ClickElement {
+   "id": "3a5e5278-b0ca-4b7b-b922-36e437cba365"
+}
+[1601396220.684][INFO]: Waiting for pending navigations...
+[1601396220.684][INFO]: Done waiting for pending navigations. Status: ok
+[1601396221.756][INFO]: Waiting for pending navigations...
+[1601396221.758][INFO]: Done waiting for pending navigations. Status: ok
+[1601396221.758][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE ClickElement ERROR element click intercepted: Element <a href="#" class="collapsed" title="with submenu">...</a> is not clickable at point (291, 30). Other element would receive the click: <div id="selectCountryModalWnd" role="dialog" class="modal fade modalWindow in" data-cookie-country-cookie-name="wileyEncodedLocale" data-cookie-country-cookie-path="/" data-cookie-country-cookie-max-age="315532800" data-current-locale="en-us" data-detected-locale="en-ru" aria-hidden="false" style="display: block;">...</div>
+  (Session info: chrome=85.0.4183.121)
+[1601396221.988][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'WHO WE SERVE')]"
+}
+[1601396221.988][INFO]: Waiting for pending navigations...
+[1601396221.990][INFO]: Done waiting for pending navigations. Status: ok
+[1601396222.004][INFO]: Waiting for pending navigations...
+[1601396222.005][INFO]: Done waiting for pending navigations. Status: ok
+[1601396222.006][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3a5e5278-b0ca-4b7b-b922-36e437cba365"
+}
+[1601396222.019][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "3a5e5278-b0ca-4b7b-b922-36e437cba365"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601396222.019][INFO]: Waiting for pending navigations...
+[1601396222.020][INFO]: Done waiting for pending navigations. Status: ok
+[1601396222.024][INFO]: Waiting for pending navigations...
+[1601396222.025][INFO]: Done waiting for pending navigations. Status: ok
+[1601396222.025][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE ExecuteScript true
+[1601396222.035][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND ClickElement {
+   "id": "3a5e5278-b0ca-4b7b-b922-36e437cba365"
+}
+[1601396222.035][INFO]: Waiting for pending navigations...
+[1601396222.035][INFO]: Done waiting for pending navigations. Status: ok
+[1601396223.061][INFO]: Waiting for pending navigations...
+[1601396223.063][INFO]: Done waiting for pending navigations. Status: ok
+[1601396223.063][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE ClickElement ERROR element click intercepted: Element <a href="#" class="collapsed" title="with submenu">...</a> is not clickable at point (291, 30). Other element would receive the click: <div id="selectCountryModalWnd" role="dialog" class="modal fade modalWindow in" data-cookie-country-cookie-name="wileyEncodedLocale" data-cookie-country-cookie-path="/" data-cookie-country-cookie-max-age="315532800" data-current-locale="en-us" data-detected-locale="en-ru" aria-hidden="false" style="display: block;">...</div>
+  (Session info: chrome=85.0.4183.121)
+[1601396223.312][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1601396223.312][INFO]: Waiting for pending navigations...
+[1601396223.312][INFO]: Done waiting for pending navigations. Status: ok
+[1601396223.324][INFO]: Waiting for pending navigations...
+[1601396223.324][INFO]: Done waiting for pending navigations. Status: ok
+[1601396223.324][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE ExecuteScript "\u003Chtml lang=\"en-us\" style=\"--vh:6.8px;\">\u003Chead>\n\t\u003Ctitle>\n\t\tHomepage | Wiley\u003C/title>\n\t\u003Cmeta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n\t\u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"I..."
+[1601396223.349][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND Screenshot {
+
+}
+[1601396223.349][INFO]: Waiting for pending navigations...
+[1601396223.350][INFO]: Done waiting for pending navigations. Status: ok
+[1601396223.687][INFO]: Waiting for pending navigations...
+[1601396223.687][INFO]: Done waiting for pending navigations. Status: ok
+[1601396223.687][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3elzG9eVNvCnN+zEQhAkuG8SF9GWZcexnWRqUhPnw3zxHzxVyUylZibvVKRIsiRKpChxX8AFIAFi7+39APQVQGLjTgnPr8rlEoFu3G7cbnSfPvdc6ZdffrFBR..."
+[1601396223.784][INFO]: [9789c06240e0c84119acc0212f93e091] COMMAND Quit {
+
+}
+[1601396223.829][INFO]: [9789c06240e0c84119acc0212f93e091] RESPONSE Quit

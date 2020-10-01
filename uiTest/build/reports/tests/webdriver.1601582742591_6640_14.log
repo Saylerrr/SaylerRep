@@ -1,0 +1,2560 @@
+[1601582742.712][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 38560
+[1601582742.712][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601582743.382][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\sayle\\IdeaProjects\\uiTest\\build\\downloads\\1601582742251_6640_14",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\sayle\\IdeaProjects\\uiTest\\build\\downloads\\1601582742251_6640_14",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601582743.388][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\sayle\\IdeaProjects\\uiTest\\build\\downloads\\1601582742251_6640_14"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601582743.392][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601582743.393][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\sayle\AppData\Local\Temp\scoped_dir7220_945047448" data:,
+[1601582743.837][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601582745.873][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601582747.897][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\sayle\\AppData\\Local\\Temp\\scoped_dir7220_945047448"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55211"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "b1722fcb8c341eea9e70c07481fea290"
+}
+[1601582747.968][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1601582747.968][INFO]: Waiting for pending navigations...
+[1601582747.971][INFO]: Done waiting for pending navigations. Status: ok
+[1601582748.079][INFO]: Waiting for pending navigations...
+[1601582748.079][INFO]: Done waiting for pending navigations. Status: ok
+[1601582748.079][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1601582748.094][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1601582748.094][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE SetTimeouts
+[1601582748.110][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND Navigate {
+   "url": "https://www.wiley.com/en-us"
+}
+[1601582748.110][INFO]: Waiting for pending navigations...
+[1601582748.111][INFO]: Done waiting for pending navigations. Status: ok
+[1601582748.688][INFO]: Waiting for pending navigations...
+[1601582749.653][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.653][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE Navigate
+[1601582749.715][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[text()='YES']"
+}
+[1601582749.715][INFO]: Waiting for pending navigations...
+[1601582749.716][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.723][INFO]: Waiting for pending navigations...
+[1601582749.724][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.724][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "316bdcc5-b5d8-4b16-9f11-075b413af440"
+}
+[1601582749.747][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "316bdcc5-b5d8-4b16-9f11-075b413af440"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582749.747][INFO]: Waiting for pending navigations...
+[1601582749.756][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.764][INFO]: Waiting for pending navigations...
+[1601582749.765][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.765][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582749.777][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ClickElement {
+   "id": "316bdcc5-b5d8-4b16-9f11-075b413af440"
+}
+[1601582749.777][INFO]: Waiting for pending navigations...
+[1601582749.778][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.825][INFO]: Waiting for pending navigations...
+[1601582749.829][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.829][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ClickElement
+[1601582749.839][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='Search by Title, Author, Keyword or ISBN']"
+}
+[1601582749.839][INFO]: Waiting for pending navigations...
+[1601582749.840][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.847][INFO]: Waiting for pending navigations...
+[1601582749.847][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.847][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6b048b35-2002-4e0c-b981-2a068520fcd0"
+}
+[1601582749.855][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "6b048b35-2002-4e0c-b981-2a068520fcd0"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582749.855][INFO]: Waiting for pending navigations...
+[1601582749.856][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.863][INFO]: Waiting for pending navigations...
+[1601582749.864][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.864][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582749.870][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ClearElement {
+   "id": "6b048b35-2002-4e0c-b981-2a068520fcd0"
+}
+[1601582749.871][INFO]: Waiting for pending navigations...
+[1601582749.871][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.885][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1601582749.892][INFO]: Waiting for pending navigations...
+[1601582749.893][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.893][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ClearElement
+[1601582749.900][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND TypeElement {
+   "id": "6b048b35-2002-4e0c-b981-2a068520fcd0",
+   "text": "Java",
+   "value": [ "J", "a", "v", "a" ]
+}
+[1601582749.900][INFO]: Waiting for pending navigations...
+[1601582749.903][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.947][INFO]: Waiting for pending navigations...
+[1601582749.949][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.949][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE TypeElement
+[1601582749.965][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[text()='Search']"
+}
+[1601582749.965][INFO]: Waiting for pending navigations...
+[1601582749.967][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.985][INFO]: Waiting for pending navigations...
+[1601582749.987][INFO]: Done waiting for pending navigations. Status: ok
+[1601582749.987][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "7523f77c-2cc6-48d3-8b04-6f3f1a6fbd9c"
+}
+[1601582749.996][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "7523f77c-2cc6-48d3-8b04-6f3f1a6fbd9c"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582749.996][INFO]: Waiting for pending navigations...
+[1601582749.997][INFO]: Done waiting for pending navigations. Status: ok
+[1601582750.002][INFO]: Waiting for pending navigations...
+[1601582750.026][INFO]: Done waiting for pending navigations. Status: ok
+[1601582750.026][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582750.043][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ClickElement {
+   "id": "7523f77c-2cc6-48d3-8b04-6f3f1a6fbd9c"
+}
+[1601582750.043][INFO]: Waiting for pending navigations...
+[1601582750.043][INFO]: Done waiting for pending navigations. Status: ok
+[1601582750.370][INFO]: Waiting for pending navigations...
+[1601582751.062][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.062][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ClickElement
+[1601582751.082][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.082][INFO]: Waiting for pending navigations...
+[1601582751.086][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.093][INFO]: Waiting for pending navigations...
+[1601582751.111][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.111][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [  ]
+[1601582751.346][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.346][INFO]: Waiting for pending navigations...
+[1601582751.409][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.428][INFO]: Waiting for pending navigations...
+[1601582751.432][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.432][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582751.442][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.442][INFO]: Waiting for pending navigations...
+[1601582751.444][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.466][INFO]: Waiting for pending navigations...
+[1601582751.484][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.484][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}
+[1601582751.488][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "56d951bf-7adb-4363-9796-06825ec071ef",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582751.488][INFO]: Waiting for pending navigations...
+[1601582751.489][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.499][INFO]: Waiting for pending navigations...
+[1601582751.507][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.507][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "79237cae-7e86-4256-92ca-06f022eaee53"
+}
+[1601582751.521][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "79237cae-7e86-4256-92ca-06f022eaee53"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582751.521][INFO]: Waiting for pending navigations...
+[1601582751.530][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.536][INFO]: Waiting for pending navigations...
+[1601582751.536][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.536][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582751.552][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.552][INFO]: Waiting for pending navigations...
+[1601582751.552][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.557][INFO]: Waiting for pending navigations...
+[1601582751.557][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.558][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582751.568][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "66ae04be-8ac9-42ef-9455-42a52784cdef",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582751.568][INFO]: Waiting for pending navigations...
+[1601582751.571][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.578][INFO]: Waiting for pending navigations...
+[1601582751.588][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.588][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "424bf420-4093-4a4c-9a25-818ed5dfa921"
+}
+[1601582751.600][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "424bf420-4093-4a4c-9a25-818ed5dfa921"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582751.609][INFO]: Waiting for pending navigations...
+[1601582751.610][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.615][INFO]: Waiting for pending navigations...
+[1601582751.619][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.619][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582751.629][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.637][INFO]: Waiting for pending navigations...
+[1601582751.637][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.645][INFO]: Waiting for pending navigations...
+[1601582751.646][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.646][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582751.660][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582751.660][INFO]: Waiting for pending navigations...
+[1601582751.660][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.667][INFO]: Waiting for pending navigations...
+[1601582751.667][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.667][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0da565bc-7486-4681-9a5a-26fc793312d1"
+}
+[1601582751.676][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0da565bc-7486-4681-9a5a-26fc793312d1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582751.677][INFO]: Waiting for pending navigations...
+[1601582751.677][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.683][INFO]: Waiting for pending navigations...
+[1601582751.683][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.683][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582751.691][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.691][INFO]: Waiting for pending navigations...
+[1601582751.692][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.696][INFO]: Waiting for pending navigations...
+[1601582751.696][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.696][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582751.707][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582751.707][INFO]: Waiting for pending navigations...
+[1601582751.708][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.714][INFO]: Waiting for pending navigations...
+[1601582751.715][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.715][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "84b988e5-0d06-475f-9ff6-b623e2568ecf"
+}
+[1601582751.723][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "84b988e5-0d06-475f-9ff6-b623e2568ecf"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582751.723][INFO]: Waiting for pending navigations...
+[1601582751.724][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.728][INFO]: Waiting for pending navigations...
+[1601582751.728][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.728][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582751.739][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.739][INFO]: Waiting for pending navigations...
+[1601582751.739][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.743][INFO]: Waiting for pending navigations...
+[1601582751.744][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.744][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582751.754][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "8a600139-5e64-4382-acde-df4467893440",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582751.754][INFO]: Waiting for pending navigations...
+[1601582751.754][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.761][INFO]: Waiting for pending navigations...
+[1601582751.761][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.761][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "72c72df7-7175-4c73-aeb3-be9cfd572bd3"
+}
+[1601582751.769][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "72c72df7-7175-4c73-aeb3-be9cfd572bd3"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582751.769][INFO]: Waiting for pending navigations...
+[1601582751.770][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.774][INFO]: Waiting for pending navigations...
+[1601582751.775][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.775][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582751.785][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.785][INFO]: Waiting for pending navigations...
+[1601582751.788][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.792][INFO]: Waiting for pending navigations...
+[1601582751.793][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.793][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582751.800][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "f595b938-1a60-4bad-8d97-af56bee062f3",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582751.800][INFO]: Waiting for pending navigations...
+[1601582751.800][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.807][INFO]: Waiting for pending navigations...
+[1601582751.807][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.807][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "eda7ffea-a8ef-4b51-9a54-672ae0dad811"
+}
+[1601582751.816][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "eda7ffea-a8ef-4b51-9a54-672ae0dad811"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582751.816][INFO]: Waiting for pending navigations...
+[1601582751.817][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.822][INFO]: Waiting for pending navigations...
+[1601582751.822][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.823][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582751.832][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.832][INFO]: Waiting for pending navigations...
+[1601582751.832][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.836][INFO]: Waiting for pending navigations...
+[1601582751.837][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.837][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582751.847][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "e8664d3f-b13f-4b70-a113-02394615c78e",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582751.848][INFO]: Waiting for pending navigations...
+[1601582751.848][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.855][INFO]: Waiting for pending navigations...
+[1601582751.855][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.855][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0b9d7baa-2b6b-42ae-88f1-00640afe0c25"
+}
+[1601582751.863][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0b9d7baa-2b6b-42ae-88f1-00640afe0c25"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582751.863][INFO]: Waiting for pending navigations...
+[1601582751.864][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.868][INFO]: Waiting for pending navigations...
+[1601582751.869][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.869][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582751.878][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.878][INFO]: Waiting for pending navigations...
+[1601582751.879][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.887][INFO]: Waiting for pending navigations...
+[1601582751.888][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.888][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582751.894][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "8ec1e128-4c9a-4fc7-88c6-824494d69584",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582751.894][INFO]: Waiting for pending navigations...
+[1601582751.895][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.904][INFO]: Waiting for pending navigations...
+[1601582751.905][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.905][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6a7f747d-34ee-4d37-8e9a-009c5ca7683c"
+}
+[1601582751.927][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "6a7f747d-34ee-4d37-8e9a-009c5ca7683c"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582751.927][INFO]: Waiting for pending navigations...
+[1601582751.928][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.934][INFO]: Waiting for pending navigations...
+[1601582751.935][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.935][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582751.942][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.942][INFO]: Waiting for pending navigations...
+[1601582751.943][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.948][INFO]: Waiting for pending navigations...
+[1601582751.949][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.949][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582751.958][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582751.958][INFO]: Waiting for pending navigations...
+[1601582751.959][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.965][INFO]: Waiting for pending navigations...
+[1601582751.966][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.966][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "08e98ff8-5da6-4002-a4ba-e7c74ac435f8"
+}
+[1601582751.974][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "08e98ff8-5da6-4002-a4ba-e7c74ac435f8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582751.974][INFO]: Waiting for pending navigations...
+[1601582751.975][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.980][INFO]: Waiting for pending navigations...
+[1601582751.980][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.980][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582751.989][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582751.989][INFO]: Waiting for pending navigations...
+[1601582751.990][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.994][INFO]: Waiting for pending navigations...
+[1601582751.994][INFO]: Done waiting for pending navigations. Status: ok
+[1601582751.995][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.005][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c9f7f2a3-8724-4c38-b040-505947293db5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Java\"]/parent::*"
+}
+[1601582752.005][INFO]: Waiting for pending navigations...
+[1601582752.006][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.012][INFO]: Waiting for pending navigations...
+[1601582752.013][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.013][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "98cb3bb2-6a07-4c93-b87b-e2db813cc8aa"
+}
+[1601582752.020][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "98cb3bb2-6a07-4c93-b87b-e2db813cc8aa"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582752.020][INFO]: Waiting for pending navigations...
+[1601582752.021][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.026][INFO]: Waiting for pending navigations...
+[1601582752.026][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.026][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582752.035][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.035][INFO]: Waiting for pending navigations...
+[1601582752.036][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.040][INFO]: Waiting for pending navigations...
+[1601582752.041][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.041][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}
+[1601582752.051][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "56d951bf-7adb-4363-9796-06825ec071ef",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.051][INFO]: Waiting for pending navigations...
+[1601582752.051][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.058][INFO]: Waiting for pending navigations...
+[1601582752.059][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.059][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "O-Book"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.082][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.082][INFO]: Waiting for pending navigations...
+[1601582752.083][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.087][INFO]: Waiting for pending navigations...
+[1601582752.088][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.088][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.098][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "66ae04be-8ac9-42ef-9455-42a52784cdef",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.098][INFO]: Waiting for pending navigations...
+[1601582752.099][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.107][INFO]: Waiting for pending navigations...
+[1601582752.108][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.108][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "O-Book"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.113][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.113][INFO]: Waiting for pending navigations...
+[1601582752.114][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.118][INFO]: Waiting for pending navigations...
+[1601582752.118][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.119][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.128][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.128][INFO]: Waiting for pending navigations...
+[1601582752.128][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.136][INFO]: Waiting for pending navigations...
+[1601582752.136][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.136][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "O-Book"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.143][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.143][INFO]: Waiting for pending navigations...
+[1601582752.144][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.148][INFO]: Waiting for pending navigations...
+[1601582752.150][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.150][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.159][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.159][INFO]: Waiting for pending navigations...
+[1601582752.160][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.166][INFO]: Waiting for pending navigations...
+[1601582752.167][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.167][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "95c2e169-4a57-4430-8f21-bf3902d427c4"
+}
+[1601582752.175][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.175][INFO]: Waiting for pending navigations...
+[1601582752.175][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.180][INFO]: Waiting for pending navigations...
+[1601582752.180][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.180][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.190][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.190][INFO]: Waiting for pending navigations...
+[1601582752.191][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.194][INFO]: Waiting for pending navigations...
+[1601582752.195][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.195][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "95c2e169-4a57-4430-8f21-bf3902d427c4"
+}
+[1601582752.206][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "95c2e169-4a57-4430-8f21-bf3902d427c4"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582752.206][INFO]: Waiting for pending navigations...
+[1601582752.207][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.212][INFO]: Waiting for pending navigations...
+[1601582752.213][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.213][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582752.222][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ClickElement {
+   "id": "95c2e169-4a57-4430-8f21-bf3902d427c4"
+}
+[1601582752.222][INFO]: Waiting for pending navigations...
+[1601582752.223][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.275][INFO]: Waiting for pending navigations...
+[1601582752.284][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.284][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ClickElement
+[1601582752.300][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.300][INFO]: Waiting for pending navigations...
+[1601582752.303][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.307][INFO]: Waiting for pending navigations...
+[1601582752.308][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.308][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.316][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"View on Wiley Online Library\"]/parent::*"
+}
+[1601582752.316][INFO]: Waiting for pending navigations...
+[1601582752.317][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.323][INFO]: Waiting for pending navigations...
+[1601582752.324][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.324][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "7d72ba76-d8af-40d4-ae28-f45a504c809c"
+}
+[1601582752.332][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "7d72ba76-d8af-40d4-ae28-f45a504c809c"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582752.332][INFO]: Waiting for pending navigations...
+[1601582752.333][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.338][INFO]: Waiting for pending navigations...
+[1601582752.339][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.339][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582752.347][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.347][INFO]: Waiting for pending navigations...
+[1601582752.348][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.352][INFO]: Waiting for pending navigations...
+[1601582752.353][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.353][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.362][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "8a600139-5e64-4382-acde-df4467893440",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.362][INFO]: Waiting for pending navigations...
+[1601582752.363][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.371][INFO]: Waiting for pending navigations...
+[1601582752.371][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.371][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "O-Book"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.378][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.378][INFO]: Waiting for pending navigations...
+[1601582752.379][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.384][INFO]: Waiting for pending navigations...
+[1601582752.385][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.385][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.393][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "f595b938-1a60-4bad-8d97-af56bee062f3",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.393][INFO]: Waiting for pending navigations...
+[1601582752.394][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.401][INFO]: Waiting for pending navigations...
+[1601582752.402][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.402][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "O-Book"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.409][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.409][INFO]: Waiting for pending navigations...
+[1601582752.410][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.414][INFO]: Waiting for pending navigations...
+[1601582752.416][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.416][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.425][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "e8664d3f-b13f-4b70-a113-02394615c78e",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.425][INFO]: Waiting for pending navigations...
+[1601582752.426][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.433][INFO]: Waiting for pending navigations...
+[1601582752.434][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.434][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "O-Book"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.441][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.441][INFO]: Waiting for pending navigations...
+[1601582752.442][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.446][INFO]: Waiting for pending navigations...
+[1601582752.447][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.447][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.456][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "8ec1e128-4c9a-4fc7-88c6-824494d69584",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.456][INFO]: Waiting for pending navigations...
+[1601582752.457][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.464][INFO]: Waiting for pending navigations...
+[1601582752.465][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.465][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "O-Book"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.472][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.472][INFO]: Waiting for pending navigations...
+[1601582752.473][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.477][INFO]: Waiting for pending navigations...
+[1601582752.478][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.478][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.488][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.488][INFO]: Waiting for pending navigations...
+[1601582752.489][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.496][INFO]: Waiting for pending navigations...
+[1601582752.496][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.496][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "O-Book"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.504][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.504][INFO]: Waiting for pending navigations...
+[1601582752.504][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.509][INFO]: Waiting for pending navigations...
+[1601582752.509][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.509][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.519][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c9f7f2a3-8724-4c38-b040-505947293db5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"O-Book\"]/parent::*"
+}
+[1601582752.519][INFO]: Waiting for pending navigations...
+[1601582752.520][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.527][INFO]: Waiting for pending navigations...
+[1601582752.528][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.528][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "O-Book"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.534][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.534][INFO]: Waiting for pending navigations...
+[1601582752.535][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.539][INFO]: Waiting for pending navigations...
+[1601582752.540][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.540][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}
+[1601582752.550][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "56d951bf-7adb-4363-9796-06825ec071ef",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582752.550][INFO]: Waiting for pending navigations...
+[1601582752.552][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.580][INFO]: Waiting for pending navigations...
+[1601582752.582][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.582][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3fa97fce-82b6-42db-81fa-df2d89403733"
+}
+[1601582752.598][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "3fa97fce-82b6-42db-81fa-df2d89403733"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582752.598][INFO]: Waiting for pending navigations...
+[1601582752.599][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.605][INFO]: Waiting for pending navigations...
+[1601582752.606][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.606][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582752.613][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.613][INFO]: Waiting for pending navigations...
+[1601582752.613][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.619][INFO]: Waiting for pending navigations...
+[1601582752.620][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.620][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.629][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "66ae04be-8ac9-42ef-9455-42a52784cdef",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582752.629][INFO]: Waiting for pending navigations...
+[1601582752.630][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.638][INFO]: Waiting for pending navigations...
+[1601582752.639][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.639][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0cff4507-dd7f-4984-8944-aca674106d60"
+}
+[1601582752.646][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0cff4507-dd7f-4984-8944-aca674106d60"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582752.646][INFO]: Waiting for pending navigations...
+[1601582752.646][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.653][INFO]: Waiting for pending navigations...
+[1601582752.654][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.654][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582752.660][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.660][INFO]: Waiting for pending navigations...
+[1601582752.660][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.666][INFO]: Waiting for pending navigations...
+[1601582752.667][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.667][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.675][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582752.675][INFO]: Waiting for pending navigations...
+[1601582752.676][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.685][INFO]: Waiting for pending navigations...
+[1601582752.686][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.686][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.690][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.690][INFO]: Waiting for pending navigations...
+[1601582752.691][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.696][INFO]: Waiting for pending navigations...
+[1601582752.696][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.696][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.707][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582752.707][INFO]: Waiting for pending navigations...
+[1601582752.708][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.712][INFO]: Waiting for pending navigations...
+[1601582752.713][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.713][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582752.941][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.941][INFO]: Waiting for pending navigations...
+[1601582752.942][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.946][INFO]: Waiting for pending navigations...
+[1601582752.947][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.947][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.957][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582752.957][INFO]: Waiting for pending navigations...
+[1601582752.958][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.962][INFO]: Waiting for pending navigations...
+[1601582752.963][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.963][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582752.973][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582752.973][INFO]: Waiting for pending navigations...
+[1601582752.974][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.978][INFO]: Waiting for pending navigations...
+[1601582752.979][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.979][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582752.989][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582752.990][INFO]: Waiting for pending navigations...
+[1601582752.990][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.994][INFO]: Waiting for pending navigations...
+[1601582752.995][INFO]: Done waiting for pending navigations. Status: ok
+[1601582752.995][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582753.225][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582753.225][INFO]: Waiting for pending navigations...
+[1601582753.226][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.230][INFO]: Waiting for pending navigations...
+[1601582753.231][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.231][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582753.241][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582753.241][INFO]: Waiting for pending navigations...
+[1601582753.242][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.247][INFO]: Waiting for pending navigations...
+[1601582753.247][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.247][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582753.256][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582753.256][INFO]: Waiting for pending navigations...
+[1601582753.257][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.262][INFO]: Waiting for pending navigations...
+[1601582753.263][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.263][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582753.273][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582753.273][INFO]: Waiting for pending navigations...
+[1601582753.274][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.278][INFO]: Waiting for pending navigations...
+[1601582753.279][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.279][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582753.510][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582753.510][INFO]: Waiting for pending navigations...
+[1601582753.511][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.515][INFO]: Waiting for pending navigations...
+[1601582753.516][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.516][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582753.526][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582753.526][INFO]: Waiting for pending navigations...
+[1601582753.526][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.531][INFO]: Waiting for pending navigations...
+[1601582753.532][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.532][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582753.542][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582753.542][INFO]: Waiting for pending navigations...
+[1601582753.545][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.552][INFO]: Waiting for pending navigations...
+[1601582753.553][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.553][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582753.573][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582753.573][INFO]: Waiting for pending navigations...
+[1601582753.573][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.578][INFO]: Waiting for pending navigations...
+[1601582753.578][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.578][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582753.806][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582753.806][INFO]: Waiting for pending navigations...
+[1601582753.808][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.817][INFO]: Waiting for pending navigations...
+[1601582753.817][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.817][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582753.821][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582753.821][INFO]: Waiting for pending navigations...
+[1601582753.822][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.826][INFO]: Waiting for pending navigations...
+[1601582753.827][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.827][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582753.837][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582753.837][INFO]: Waiting for pending navigations...
+[1601582753.838][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.842][INFO]: Waiting for pending navigations...
+[1601582753.842][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.842][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582753.854][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582753.854][INFO]: Waiting for pending navigations...
+[1601582753.854][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.858][INFO]: Waiting for pending navigations...
+[1601582753.859][INFO]: Done waiting for pending navigations. Status: ok
+[1601582753.859][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582754.085][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582754.085][INFO]: Waiting for pending navigations...
+[1601582754.088][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.096][INFO]: Waiting for pending navigations...
+[1601582754.097][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.097][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582754.100][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582754.100][INFO]: Waiting for pending navigations...
+[1601582754.101][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.105][INFO]: Waiting for pending navigations...
+[1601582754.106][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.106][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582754.116][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582754.116][INFO]: Waiting for pending navigations...
+[1601582754.116][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.120][INFO]: Waiting for pending navigations...
+[1601582754.121][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.121][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582754.132][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582754.132][INFO]: Waiting for pending navigations...
+[1601582754.132][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.136][INFO]: Waiting for pending navigations...
+[1601582754.137][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.137][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582754.364][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582754.365][INFO]: Waiting for pending navigations...
+[1601582754.367][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.375][INFO]: Waiting for pending navigations...
+[1601582754.375][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.375][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582754.379][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582754.379][INFO]: Waiting for pending navigations...
+[1601582754.380][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.384][INFO]: Waiting for pending navigations...
+[1601582754.385][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.385][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582754.395][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582754.395][INFO]: Waiting for pending navigations...
+[1601582754.396][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.400][INFO]: Waiting for pending navigations...
+[1601582754.400][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.400][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582754.411][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582754.411][INFO]: Waiting for pending navigations...
+[1601582754.412][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.416][INFO]: Waiting for pending navigations...
+[1601582754.416][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.416][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582754.645][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582754.645][INFO]: Waiting for pending navigations...
+[1601582754.647][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.662][INFO]: Waiting for pending navigations...
+[1601582754.663][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.663][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582754.675][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582754.675][INFO]: Waiting for pending navigations...
+[1601582754.676][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.684][INFO]: Waiting for pending navigations...
+[1601582754.685][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.685][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582754.690][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582754.690][INFO]: Waiting for pending navigations...
+[1601582754.691][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.698][INFO]: Waiting for pending navigations...
+[1601582754.699][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.699][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582754.707][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582754.707][INFO]: Waiting for pending navigations...
+[1601582754.708][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.713][INFO]: Waiting for pending navigations...
+[1601582754.714][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.714][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582754.938][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582754.938][INFO]: Waiting for pending navigations...
+[1601582754.940][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.954][INFO]: Waiting for pending navigations...
+[1601582754.956][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.956][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582754.970][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582754.970][INFO]: Waiting for pending navigations...
+[1601582754.971][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.979][INFO]: Waiting for pending navigations...
+[1601582754.979][INFO]: Done waiting for pending navigations. Status: ok
+[1601582754.979][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582754.986][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582754.986][INFO]: Waiting for pending navigations...
+[1601582754.988][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.004][INFO]: Waiting for pending navigations...
+[1601582755.006][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.006][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582755.034][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582755.034][INFO]: Waiting for pending navigations...
+[1601582755.035][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.041][INFO]: Waiting for pending navigations...
+[1601582755.042][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.042][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582755.269][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582755.270][INFO]: Waiting for pending navigations...
+[1601582755.271][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.280][INFO]: Waiting for pending navigations...
+[1601582755.280][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.280][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582755.285][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582755.285][INFO]: Waiting for pending navigations...
+[1601582755.285][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.290][INFO]: Waiting for pending navigations...
+[1601582755.290][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.290][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582755.300][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582755.300][INFO]: Waiting for pending navigations...
+[1601582755.300][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.304][INFO]: Waiting for pending navigations...
+[1601582755.305][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.305][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582755.316][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582755.316][INFO]: Waiting for pending navigations...
+[1601582755.317][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.320][INFO]: Waiting for pending navigations...
+[1601582755.321][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.321][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582755.550][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582755.550][INFO]: Waiting for pending navigations...
+[1601582755.552][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.569][INFO]: Waiting for pending navigations...
+[1601582755.571][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.571][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582755.580][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582755.580][INFO]: Waiting for pending navigations...
+[1601582755.581][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.585][INFO]: Waiting for pending navigations...
+[1601582755.586][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.586][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582755.596][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582755.596][INFO]: Waiting for pending navigations...
+[1601582755.597][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.601][INFO]: Waiting for pending navigations...
+[1601582755.601][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.601][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582755.612][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582755.612][INFO]: Waiting for pending navigations...
+[1601582755.613][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.617][INFO]: Waiting for pending navigations...
+[1601582755.617][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.617][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582755.845][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582755.845][INFO]: Waiting for pending navigations...
+[1601582755.847][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.857][INFO]: Waiting for pending navigations...
+[1601582755.858][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.858][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582755.860][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582755.860][INFO]: Waiting for pending navigations...
+[1601582755.861][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.868][INFO]: Waiting for pending navigations...
+[1601582755.869][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.869][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582755.877][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582755.877][INFO]: Waiting for pending navigations...
+[1601582755.878][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.882][INFO]: Waiting for pending navigations...
+[1601582755.884][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.885][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582755.893][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582755.893][INFO]: Waiting for pending navigations...
+[1601582755.894][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.898][INFO]: Waiting for pending navigations...
+[1601582755.900][INFO]: Done waiting for pending navigations. Status: ok
+[1601582755.900][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582756.125][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582756.125][INFO]: Waiting for pending navigations...
+[1601582756.126][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.130][INFO]: Waiting for pending navigations...
+[1601582756.130][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.130][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582756.141][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582756.141][INFO]: Waiting for pending navigations...
+[1601582756.142][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.146][INFO]: Waiting for pending navigations...
+[1601582756.147][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.147][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582756.157][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582756.157][INFO]: Waiting for pending navigations...
+[1601582756.158][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.162][INFO]: Waiting for pending navigations...
+[1601582756.162][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.162][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582756.172][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582756.173][INFO]: Waiting for pending navigations...
+[1601582756.173][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.177][INFO]: Waiting for pending navigations...
+[1601582756.178][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.178][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582756.405][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582756.405][INFO]: Waiting for pending navigations...
+[1601582756.406][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.417][INFO]: Waiting for pending navigations...
+[1601582756.421][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.421][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582756.437][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindChildElement {
+   "id": "c8c785a1-e989-43d9-b51c-0673fc356731",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Add to cart\"]/parent::*"
+}
+[1601582756.437][INFO]: Waiting for pending navigations...
+[1601582756.438][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.443][INFO]: Waiting for pending navigations...
+[1601582756.444][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.444][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "Add to cart"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1601582756.452][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='products-list']/section"
+}
+[1601582756.452][INFO]: Waiting for pending navigations...
+[1601582756.453][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.457][INFO]: Waiting for pending navigations...
+[1601582756.457][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.457][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "56d951bf-7adb-4363-9796-06825ec071ef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "66ae04be-8ac9-42ef-9455-42a52784cdef"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc5c6285-f73f-44c5-970b-cf7c469ef7cc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8a600139-5e64-4382-acde-df4467893440"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f595b938-1a60-4bad-8d97-af56bee062f3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e8664d3f-b13f-4b70-a113-02394615c78e"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ec1e128-4c9a-4fc7-88c6-824494d69584"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e2c28b4-95ab-4ef9-9cf3-b94e95c7b2dc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c9f7f2a3-8724-4c38-b040-505947293db5"
+} ]
+[1601582756.468][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c8c785a1-e989-43d9-b51c-0673fc356731"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601582756.468][INFO]: Waiting for pending navigations...
+[1601582756.469][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.473][INFO]: Waiting for pending navigations...
+[1601582756.473][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.473][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript true
+[1601582756.702][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1601582756.702][INFO]: Waiting for pending navigations...
+[1601582756.703][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.722][INFO]: Waiting for pending navigations...
+[1601582756.723][INFO]: Done waiting for pending navigations. Status: ok
+[1601582756.723][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE ExecuteScript "\u003Chtml lang=\"en-us\" style=\"--vh:6.8px;\">\u003Chead>\n\t\u003Ctitle>\n\t\tWiley\u003C/title>\n\t\u003Cmeta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n\t\u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\u003C..."
+[1601582756.749][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND Screenshot {
+
+}
+[1601582756.749][INFO]: Waiting for pending navigations...
+[1601582756.750][INFO]: Done waiting for pending navigations. Status: ok
+[1601582757.005][INFO]: Waiting for pending navigations...
+[1601582757.006][INFO]: Done waiting for pending navigations. Status: ok
+[1601582757.006][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XdYFNf6B/DvAhakCjbQCFIFRcCGiohRjKbagjUKmmtJjDHRqImNJEaT6DUS9YqxG2OuPytGjT2CCoooVTEiRWIBVECkStn5/cGzc1nZhaW54H4/z7PPA7szZ..."
+[1601582757.061][INFO]: [b1722fcb8c341eea9e70c07481fea290] COMMAND Quit {
+
+}
+[1601582757.088][INFO]: [b1722fcb8c341eea9e70c07481fea290] RESPONSE Quit
